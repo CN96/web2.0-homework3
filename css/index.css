@@ -1,0 +1,326 @@
+@charset "utf-8";
+/* CSS Document */
+
+#at-plus-container {
+	height: 800px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#bottom-positioner {
+	position: absolute;
+	bottom: 150px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.apb {
+	height: 50px;
+	width: 50px;
+	background-color: rgba(102,102,102,1);
+	border-radius: 50% 50% 50% 50%;
+	background-image: url(../assets/images/atplus_white.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 40px;
+	position: absolute;
+	left: 175px;
+	bottom: 0px;
+	
+	transition: all .5s 1s;
+    -moz-transition: all .5s 1s;	/* Firefox 4 */
+    -webkit-transition: all .5s 1s;	/* Safari and Chrome */
+    -o-transition: all .5s 1s;	/* Opera */
+}
+
+#button:hover .apb {
+	height: 100px;
+	width: 100px;
+	background-color: rgba(48, 63, 159, 1);
+	border-radius: 50% 50% 50% 50%;
+	background-image: url(../assets/images/atplus_green.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 80px;
+	position: absolute;
+	left: 150px;
+	bottom: 25px;
+	
+	transition: all .5s;
+    -moz-transition: all .5s;	/* Firefox 4 */
+    -webkit-transition: all .5s;	/* Safari and Chrome */
+    -o-transition: all .5s;	/* Opera */
+}
+
+
+.info {
+	height: 50px;
+	width: 50px;
+	border-radius: 50% 50% 50% 50%;
+	overflow: hidden;
+	position: absolute;
+	left: 175px;
+	bottom: 0px;
+	opacity: 0;
+	
+	transition: all .5s .5s;
+    -moz-transition: all .5s .5s;	/* Firefox 4 */
+    -webkit-transition: all .5s .5s;	/* Safari and Chrome */
+    -o-transition: all .5s .5s;	/* Opera */
+}
+
+#button:hover .info {
+	height: 200px;
+	width: 200px;
+	border-radius: 50% 50% 50% 50%;
+	overflow::hidden;
+	opacity: 1;
+	background-color: rgba(102,102,102,1);
+	position: absolute;
+	bottom: 150px;
+	left: 100px;
+	
+	transition: all .5s;
+    -moz-transition: all .5s;	/* Firefox 4 */
+    -webkit-transition: all .5s;	/* Safari and Chrome */
+    -o-transition: all .5s;	/* Opera */
+}
+
+.user {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left:60px;
+	bottom: 130px;
+}
+
+.user img {
+	height: 40px;
+	width: 40px;
+}
+
+.user span {
+	position: absolute;
+	left: 50px;
+	color: white;
+	font-size: 30px;
+	
+}
+
+.comment {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: 50px;
+	bottom: 80px;
+}
+
+.comment img {
+	height: 40px;
+	width: 40px;
+}
+
+.comment span{
+    position: absolute;
+	left: 60px;
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+	bottom: 10px;
+}
+
+.posted {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left:35px;
+	bottom: 30px;
+}
+
+.posted img {
+	height: 40px;
+	width: 40px;
+}
+
+.posted span {
+	position: absolute;
+	left: 50px;
+	color: #079E6E;
+	font-size: 30px;
+	font-weight: bold;
+	bottom: 10px;
+}
+
+.like {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left:110px;
+	bottom: 30px;
+}
+
+.like img {
+	height: 40px;
+	width: 40px;
+}
+
+.like span {
+	position: absolute;
+	left: 50px;
+	color: #079E6E;
+	font-size: 30px;
+	font-weight: bold;
+	bottom: 10px;
+}
+
+.mask, .history, .message, .setting, .sign {
+	height: 50px;
+	width: 50px;
+	border-radius: 50% 50% 50% 50%;
+	position: absolute;
+	left: 175px;
+	bottom: 0px;
+	opacity: 0;
+	
+    transition: all .5s .5s;
+    -moz-transition: all .5s .5s;	/* Firefox 4 */
+    -webkit-transition: all .5s .5s;	/* Safari and Chrome */
+    -o-transition: all .5s .5s;	/* Opera */
+}
+
+.mask {
+	background-image: url(../assets/images/mask.png);
+	background-size: 30px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.history {
+	background-image: url(../assets/images/history.png);
+	background-size: 30px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.message {
+	background-image: url(../assets/images/message.png);
+	background-size: 30px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.setting {
+	background-image: url(../assets/images/setting.png);
+	background-size: 30px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.sign {
+	background-image: url(../assets/images/signin.png);
+	background-size: 30px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#button:hover .mask {
+	height: 50px;
+	width: 50px;
+	border-radius: 50% 50% 50% 50%;
+	opacity: 1;
+	background-color: rgba(102,102,102,1);
+	
+	position: absolute;
+	bottom: 125px;
+	left: 65px;
+	
+	transition: all .5s;
+    -moz-transition: all .5s;	/* Firefox 4 */
+    -webkit-transition: all .5s;	/* Safari and Chrome */
+    -o-transition: all .5s;	/* Opera */
+}
+
+#button:hover .history {
+	height: 50px;
+	width: 50px;
+	border-radius: 50% 50% 50% 50%;
+	opacity: 1;
+	background-color: rgba(102,102,102,1);
+	
+	position: absolute;
+	bottom: 60px;
+	left: 35px;
+	
+	transition: all .5s;
+    -moz-transition: all .5s;	/* Firefox 4 */
+    -webkit-transition: all .5s;	/* Safari and Chrome */
+    -o-transition: all .5s;	/* Opera */
+}
+
+#button:hover .message {
+	height: 50px;
+	width: 50px;
+	border-radius: 50% 50% 50% 50%;
+	opacity: 1;
+	background-color: rgba(102,102,102,1);
+	
+	position: absolute;
+	bottom: -10px;
+	left: 60px;
+	
+	transition: all .5s;
+    -moz-transition: all .5s;	/* Firefox 4 */
+    -webkit-transition: all .5s;	/* Safari and Chrome */
+    -o-transition: all .5s;	/* Opera */
+}
+
+.unread {
+	background-color: red;
+    width: 25px;
+	height: 25px;
+	border-radius: 50% 50% 50% 50%;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	position: absolute;
+	bottom: 30px;
+	left: 35px;
+}
+
+
+#button:hover .setting {
+	height: 50px;
+	width: 50px;
+	border-radius: 50% 50% 50% 50%;
+	opacity: 1;
+	background-color: rgba(102,102,102,1);
+	
+	position: absolute;
+	bottom: -60px;
+	left: 120px;
+	
+	transition: all .5s;
+    -moz-transition: all .5s;	/* Firefox 4 */
+    -webkit-transition: all .5s;	/* Safari and Chrome */
+    -o-transition: all .5s;	/* Opera */
+}
+#button:hover .sign {
+	height: 50px;
+	width: 50px;
+	border-radius: 50% 50% 50% 50%;
+	opacity: 1;
+	background-color: rgba(102,102,102,1);
+	
+	position: absolute;
+	bottom: -55px;
+	left: 200px;
+	
+	transition: all .5s;
+    -moz-transition: all .5s;	/* Firefox 4 */
+    -webkit-transition: all .5s;	/* Safari and Chrome */
+    -o-transition: all .5s;	/* Opera */
+}
